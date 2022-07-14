@@ -23,18 +23,6 @@ function hourTracker() {
 }
 console.log(hourTracker());
 
-// if (hourTracker === "past") {
-        //   this style color = "grey";
-        // }
-        // else if (hourTracker === "present") {
-        //   this style color = "red";
-        //}
-        //else (hourTracker=== "Future") 
-    //else (hourTracker === "Future") 
-        //else (hourTracker === "Future") 
-        //  this style color = "green";
-        //}
-        //});
 $(".time-block").each(function (element) {
     console.log(this);
     var timeRow = $(this);
